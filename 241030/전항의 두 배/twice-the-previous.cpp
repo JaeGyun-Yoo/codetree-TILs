@@ -6,7 +6,7 @@ int main() {
 
     int arr[10];
     arr[0] = a;
-    arr[1] = a;
+    arr[1] = b;
     for(int i=2; i<10; i++)
     {
         arr[i] = arr[i-1] + 2 * arr[i-2];
