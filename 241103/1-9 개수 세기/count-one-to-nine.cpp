@@ -7,7 +7,7 @@ int main() {
     for(int i=0; i<n; i++)
     {
         int tmp; cin >> tmp;
-        cin[tmp]++;
+        arr[tmp]++;
     }
     for(int i=0; i<10; i++)
     {
