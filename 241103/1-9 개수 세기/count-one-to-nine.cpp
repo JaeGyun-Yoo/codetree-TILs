@@ -8,7 +8,7 @@ int main() {
         int tmp; cin >> tmp;
         arr[tmp]++;
     }
-    for(int i=0; i<10; i++)
+    for(int i=1; i<10; i++)
     {
         cout << arr[i] << '\n';
     }
