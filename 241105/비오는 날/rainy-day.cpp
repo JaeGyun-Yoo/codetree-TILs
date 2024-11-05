@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 struct weather
@@ -41,7 +42,7 @@ int main()
     {
         if(arr[i]->what == "Rain")
         {
-            cout<<arr[i]->year<<"-"<<arr[i]->month<<"-"<<arr[i]->day<<" "<<arr[i]->week<<" "<<arr[i]->what;
+            cout<< arr[i]->year<<"-"<<setw(2)<<setfill('0')<<arr[i]->month<<"-"<<setw(2)<<setfill('0')<<arr[i]->day<<" "<<arr[i]->week<<" "<<arr[i]->what;
             break;
         }
     }
