@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-int arr[1000];
+int arr[3000];
 int main()
 {
     int n; cin >> n;
