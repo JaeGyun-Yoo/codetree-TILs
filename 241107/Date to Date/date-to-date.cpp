@@ -8,11 +8,13 @@ int main()
     int answer = 0;
     if(month == m2 && day == d2)
     {
-        cout << 1;
-        return 0;
+        cout << 1; return 0;
     }
     while(1)
     {
+        if(month == m2 && day == d2) break;
+        answer++;
+        day++;
         if(month == m2 && day == d2) break;
         if(month == 2)
         {
@@ -22,6 +24,7 @@ int main()
                 day=1;
             }
         }
+        if(month == m2 && day == d2) break;
         else if(month % 2 == 0)
         {
             if(day == 31)
@@ -30,6 +33,7 @@ int main()
                 day=1;
             }
         }
+        if(month == m2 && day == d2) break;
         else if(month % 2 == 1)
         {
             if(day == 32)
@@ -38,8 +42,6 @@ int main()
                 day=1;
             }
         }
-        answer++;
-        day++;
         if(month == m2 && day == d2) break;
     }
     cout << answer;
