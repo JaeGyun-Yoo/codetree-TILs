@@ -8,7 +8,7 @@ bool days_in_month(int a, int b)
     {
         return b <= 29;
     }
-    if(a == 2 || a == 4 || a == 6 || a == 9 || a == 11)
+    if(a == 4 || a == 6 || a == 9 || a == 11)
     {
         return b <= 30;
     }
