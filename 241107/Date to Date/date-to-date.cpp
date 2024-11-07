@@ -6,6 +6,11 @@ int main()
     int m1,d1,m2,d2; cin >> m1 >> d1 >> m2 >> d2;
     int month = m1; int day = d1;
     int answer = 0;
+    if(month == m2 && day == d2)
+    {
+        cout << 1;
+        return 0;
+    }
     while(1)
     {
         if(month == m2 && day == d2) break;
