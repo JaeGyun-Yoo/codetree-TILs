@@ -2,6 +2,10 @@
 #include <algorithm>
 using namespace std;
 
+bool compare(int& a, int& b)
+{
+    return a >= b;
+}
 int main()
 {
     int n; cin >> n;
@@ -14,6 +18,6 @@ int main()
             arr[start]++;
         }
     }
-    sort(arr,arr+200);
-    cout << arr[199];
+    sort(arr,arr+200, compare);
+    cout << arr[0];
 }
