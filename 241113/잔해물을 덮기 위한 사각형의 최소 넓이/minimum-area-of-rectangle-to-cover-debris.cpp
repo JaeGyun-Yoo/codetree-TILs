@@ -40,6 +40,11 @@ int main()
             }
         }
     }
+    if(max_x == 0 || max_y || 0)
+    {
+        cout << 0;
+        return 0;
+    }
     cout << (max_x + 1) * (max_y + 1);
 
 }
