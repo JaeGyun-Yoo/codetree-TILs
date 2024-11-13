@@ -17,7 +17,7 @@ int main()
     target a;
     a.value = arr[0];
     a.idx = 0;
-    int max_length = 0;
+    int max_length = 1;
     for(int i=0; i<n; i++)
     {
         if(a.value != arr[i])
