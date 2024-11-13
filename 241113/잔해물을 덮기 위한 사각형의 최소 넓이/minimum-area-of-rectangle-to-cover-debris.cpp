@@ -40,7 +40,7 @@ int main()
             }
         }
     }
-    if(max_x == 0 || max_y || 0)
+    if(max_x == 0 || max_y == 0)
     {
         cout << 0;
         return 0;
