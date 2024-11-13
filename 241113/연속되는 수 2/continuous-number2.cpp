@@ -27,6 +27,10 @@ int main()
             a.value = arr[i];
             a.idx = i;
         }
+        else if(i == n-1)
+        {
+            if(max_length < i+1 - a.idx) max_length = i+1 - a.idx;
+        }
     }
     cout << max_length;
 }
